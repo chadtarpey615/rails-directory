@@ -13,9 +13,11 @@
 </head>
 
 <body>
-  <main class="container mx-auto px-5 flex">
-    <%= yield %>
-  </main>
+  <%= render "layouts/navbar" %>
+    <main class="container mx-auto first:px-5 flex">
+
+      <%= yield %>
+    </main>
 </body>
 
 </html>

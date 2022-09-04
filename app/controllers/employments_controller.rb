@@ -4,6 +4,7 @@ class EmploymentsController < ApplicationController
   # GET /employments or /employments.json
   def index
     @employments = Employment.all
+    # user = User.find(params[:user_id])
   end
 
   # GET /employments/1 or /employments/1.json
